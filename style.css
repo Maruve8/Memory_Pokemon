@@ -1,0 +1,54 @@
+.grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  /*flex-wrap: wrap;*/
+  gap: 30px 10px;
+  max-width: 1000px; /*ancho máximo para centrar*/
+  margin: 0 auto; /*centarr horizontalmente*/
+
+}
+
+.grid img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10%;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+  
+}
+
+
+
+@font-face {
+  font-family: 'PocketMonk';
+  src: url('fonts/PocketMonk-15ze.ttf') format('truetype');
+}
+
+body {
+  font-family: 'PocketMonk', sans-serif;
+  background-color: #25528D;
+}
+
+h1 {
+  font-family: 'PocketMonk', sans-serif;
+  text-align: center;
+  color: #F6CF00;
+  font-size: 50px;
+  text-shadow: 5px 5px 0 #1A2651, -1px -1px 0 #1A2651, 1px -1px 0 #1A2651, -1px 1px 0 #1A2651; /* Sombra para crear borde */
+}
+
+h3 {
+  text-align: center;
+  color: #F6CF00;
+  font-size: 30px;
+  text-shadow: 3px 3px 0 #1A2651, -1px -1px 0 #1A2651, 1px -1px 0 #1A2651, -1px 1px 0 #1A2651;
+}
+
+div {
+  text-align: center;
+  color: #F6CF00;
+  font-size: 20px;
+  text-shadow: 2px 2px 0 #1A2651, -1px -1px 0 #1A2651, 1px -1px 0 #1A2651, -1px 1px 0 #1A2651;
+}
+
